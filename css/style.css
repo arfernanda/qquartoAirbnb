@@ -35,6 +35,12 @@ h1{
   border-radius: 10px;
 }
 
+.card-text{
+  padding: 0 5px;
+  height: 120px;
+  position: relative;
+}
+
 .place-type{
   display: inline;
   background-color: yellowgreen;
@@ -44,6 +50,7 @@ h1{
 .place-title{
   font-weight: bold;
 }
+
 
 footer{
   width: 100vw;
@@ -83,6 +90,11 @@ footer p{
 
   .card img{
     height: 240px;
+  }
+  
+  .place-price{
+    position: absolute;
+    top: 80px;
   }
 
   footer{
