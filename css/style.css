@@ -16,6 +16,10 @@ header img{
   width: 50px;
 }
 
+main{
+  padding-bottom: 100px;
+}
+
 h1{
   font-weight: 400;
 }
@@ -45,7 +49,7 @@ h1{
 }
 
 footer{
-  width: 320px;
+  width: 100vh;
   padding-bottom: 50px;
   font-size: 12px;
   font-weight: 300;
@@ -61,4 +65,25 @@ footer{
 
 footer p{
   margin: 0;
+}
+
+@media only screen and (min-width: 600px) {
+  #cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+  }
+
+  .card{
+    margin: 20px 20px;
+  }
+
+  .card img{
+    height: 240px;
+  }
+  
+  footer{
+    width: 100vh;
+  }
 }
