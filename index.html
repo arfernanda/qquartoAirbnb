@@ -17,30 +17,32 @@
     <header>
       <img src="imagens/logo.png" alt="Logotipo do site" class="logo">
 
-      <!-- <div class="search">
+      <div class="search2">
         <ul>
           <li>
             <p>LOCALIZAÇÃO</p>
-            <p>Para onde você vai?</p>
+            <input type="text" placeholder="Para onde você vai?" name="location">
           </li>
-
+          <div class="vertical-line"></div>
           <li>
             <p>CHECK-IN/CHECK-OUT</p>
-            <p>Insira as datas</p>
+            <input placeholder="Insira as datas" name="date" type="text" onfocus="(this.type='date')"
+              onblur="(this.type='text')" id="date" />
           </li>
-
+          <div class="vertical-line"></div>
           <li>
             <p>HÓSPEDES</p>
-            <p>Insira o número de hóespedes</p>
+            <input type="number" placeholder="Insira o número de hóspedes?" name="guests">
           </li>
 
           <li>
             <button>
+              <i class="fa fa-search"></i>
               Buscar
             </button>
           </li>
         </ul>
-      </div> -->
+      </div>
 
       <div class="search">
         <i class="fa fa-search"></i>
