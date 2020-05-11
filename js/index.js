@@ -20,23 +20,23 @@ function createCards(card) {
   const div = document.createElement("div");
   div.className = "card";
   div.innerHTML = `
-  <img src="${card.photo}" class="card-img" alt="${card.name}" />
-  <div class="card-text">
-  
-    <p class="place-type">
-      ${card.property_type}
+    <img src="${card.photo}" class="card-img" alt="${card.name}" />
+    <div class="card-text">
+    
+      <p class="place-type">
+        ${card.property_type}
+      </p>
+
+      <p class="place-title">
+      ${card.name}
+      </p>    
+
+      <p class="place-price">
+        R$${card.price},00/noite
     </p>
 
-    <p class="place-title">
-    ${card.name}
-    </p>    
-
-    <p class="place-price">
-      R$${card.price},00/noite
-  </p>
-
-  </div>
-`;
+    </div>
+  `;
   cardsContainer.appendChild(div);
 }
 

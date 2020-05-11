@@ -10,6 +10,36 @@ header img{
   width: 50px;
 }
 
+/* .search{
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+} */
+.search{
+  height: 40px;
+  width: 90%;
+  margin: 10px 0 0 10px;
+  padding: 0 10px;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px lightgrey;
+}
+
+.search input[type=text]{
+  width: 80%;
+  height: 80%;
+  padding-top: 3px;
+  border: 0;
+}
+
+.search input[type=text]:focus{
+  outline: none;
+}
+
+.fa-search{
+  padding: 0 10px;
+  color: rgb(50, 50, 50);
+}
+
 main{
   display: flex;
   flex-flow: column wrap;
@@ -71,7 +101,7 @@ footer p{
   margin: 0;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 420px) {
   .container{
     width: 90vw;
     margin: auto;
